@@ -7,7 +7,7 @@ ollama_vol_flag: True
 # Flag to automatical remove ollama volume after run
 remove_ollama_vol_flag: False
 # List of models to try in ASCENDING SIZE
-model_list: ['llama3.1:8b-instruct-q4_0', 'llama3.1:8b-instruct-q8_0', 'llama3.1:8b-instruct-fp16', 'llama3.1:70b-instruct-q5_0', 'llama3.1:70b-instruct-q8_0', 'llama3.1:70b-instruct-fp16', 'llama3.1:405b-instruct-q4_0', 'llama3.1:405b-instruct-q8_0', 'llama3.1:405b-instruct-fp16']
+model_list: ['llama3.1:8b-instruct-q4_0', 'llama3.1:8b-instruct-q8_0', 'llama3.1:8b-instruct-fp16']
 # List of GPU_IDs to test
 gpu_id_lists: [
   [cpu]
